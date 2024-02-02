@@ -22,6 +22,7 @@ body
     height: 100px;
     margin: 20px;
     justify-content: space-between;
+    position: relative;
 
     
 }
@@ -61,7 +62,7 @@ body
     content: "";
     position: absolute;
     bottom: -8px;
-    height: 3px;
+    height: 2px;
     width: 100%;
     background-color: var(--primary);
     border-radius: 30px;
@@ -105,6 +106,27 @@ body
      }
      100%{transform: translateY(0);}
 }
+.nav-icon
+{
+  
+        display: flex;
+        color: rgb(10, 10, 10);
+        background-color: var(--bg);
+        border-radius: 50%;
+        padding: 8px;
+        position: absolute;
+        right: 10px;
+        display: none;
+    
+}
+.nav-icon:hover
+{
+    background-color: transparent;
+    border: 1px solid var(--bg);
+    font-weight:bolder ;
+}
+
+
 @media only screen and (max-width: 767px)
 {
     .nav-btn{
@@ -114,7 +136,14 @@ body
     {
         display: none;
     }
+    .nav-icon
+    {
+        display: block;
+    }
+   
 }
+
+
 
 
 .nav-btn:hover
