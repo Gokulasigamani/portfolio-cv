@@ -169,7 +169,7 @@ body
     backdrop-filter: blur(20px);
     font-weight: bold;
 }
-.mod-link:hover
+.mod-link:active
 {
     background-color: var(--rare);
     border-radius: 20px;
