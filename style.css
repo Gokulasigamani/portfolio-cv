@@ -120,7 +120,7 @@ body
         display: none;
     
 }
-.nav-icon:focus
+.nav-icon:active
 {
     background-color: transparent;
     border: 1px solid var(--bg);
@@ -169,7 +169,7 @@ body
     backdrop-filter: blur(20px);
     font-weight: bold;
 }
-.mod-link:active
+.mod-link:hover
 {
     background-color: var(--rare);
     border-radius: 20px;
