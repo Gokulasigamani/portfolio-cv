@@ -120,7 +120,7 @@ body
         display: none;
     
 }
-.nav-icon:active
+.nav-icon:hover
 {
     background-color: transparent;
     border: 1px solid var(--bg);
