@@ -33,6 +33,7 @@ body
 .logo
 {
     width: 100%;
+    transition: .5s;
 }
 
 .nav-links
@@ -113,9 +114,9 @@ body
         color: rgb(10, 10, 10);
         background-color: var(--bg);
         border-radius: 50%;
-        padding: 8px;
+        padding: 5px;
         position: absolute;
-        right: 40px;
+        right: 20px;
         display: none;
     
 }
@@ -125,8 +126,65 @@ body
     border: 1px solid var(--bg);
     font-weight:bolder ;
 }
+.nav-btn:hover
+{
+    background-color: var(--bg);
+    color: var(--secondory);
+}
 
+.mod-links
+{
+    width: 100%;
+    text-align: center;
+    border-radius: 12px;
+    display: none;
+    padding: 8px;
+    position: absolute;
+    top: 90px;
+    z-index: 100;
+    animation: links;
+    animation-duration: .5s;
+    animation-timing-function: ease-in;
+}
+@keyframes links {
+    0%{
+        transform: translateY(50%)
+     }
+     100%{transform: translateY(0);}
+}
+.mod-link
+{
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    transition: .5s;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+.mod-link:hover
+{
+    background-color: var(--rare);
+    border-radius: 20px;
+    padding: 5px 12px;
+    color: black;
 
+}
+.mod-btn
+{
+    border: none;
+    border-radius: 18px;
+    padding: 5px 18px;
+    transition: .5s;
+}
+.mod-btn:hover
+{
+    background-color: var(--rare);
+}
 @media only screen and (max-width: 767px)
 {
     .nav-btn{
@@ -140,15 +198,20 @@ body
     {
         display: block;
     }
+    .mod-links
+    {
+        display: block;
+    }
+    .logo{
+        width: 70%;
+    }
    
 }
 
 
 
-
-.nav-btn:hover
+.dnone
 {
-    background-color: var(--bg);
-    color: var(--secondory);
+    display: none;
 }
 

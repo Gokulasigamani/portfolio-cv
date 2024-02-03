@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/main.scss">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
 </head>
 <body>
            
@@ -23,10 +24,19 @@
 
             <button class="nav-btn">Contact</button>
 
-            <div class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <div class="nav-icon" onclick="toggle()" id="navicon"  ><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
               </svg></div>
         </div>
+        
+
+            <div class="mod-links dnone" id="modlinks">
+                <a href="" class="mod-link">Projects</a>
+                <a href="" class="mod-link">Certifications</a>
+                <a href="" class="mod-link">Skills</a>
+                <button class="mod-btn">Contact</button>
+            </div>
+
     </nav>
             
 </body>
