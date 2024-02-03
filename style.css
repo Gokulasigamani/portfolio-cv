@@ -6,6 +6,7 @@
     --primary:#E07A5F;
     --secondory:#3D405B;
     --rare:#81B29A;
+    --green: rgb(26, 138, 3);
     
 }
 
@@ -189,6 +190,8 @@ body
 {
     background-color: var(--rare);
 }
+
+
 @media only screen and (max-width: 767px)
 {
     .nav-btn{
@@ -211,6 +214,49 @@ body
     }
    
 }
+.prof
+{
+   width:400px;
+   border-radius: 30px ;
+   animation: prof;
+   animation-duration: .7s;
+   animation-timing-function: ease-in;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes prof {
+    0%{
+        transform: translateX(50%)
+     }
+     100%{transform: translateX(0);}
+}
+
 
 
 
