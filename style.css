@@ -120,11 +120,11 @@ body
         display: none;
     
 }
-.nav-icon:hover
+.nav-icon:focus
 {
     background-color: transparent;
     border: 1px solid var(--bg);
-    font-weight:bolder ;
+    font-weight:bolder;
 }
 .nav-btn:hover
 {
@@ -166,7 +166,8 @@ body
     border-radius: 20px;
     margin: 20px auto;
     background-color: transparent;
-    backdrop-filter: blur(20opx);
+    backdrop-filter: blur(20px);
+    font-weight: bold;
 }
 .mod-link:hover
 {
