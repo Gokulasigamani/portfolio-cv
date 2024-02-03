@@ -165,6 +165,8 @@ body
     justify-content: center;
     border-radius: 20px;
     margin: 20px auto;
+    background-color: transparent;
+    backdrop-filter: blur(20opx);
 }
 .mod-link:hover
 {
