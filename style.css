@@ -315,7 +315,7 @@ body
 
 .second-container
 {
-    margin-top: 100px;
+    margin-top: 50px;
 
 }
 
@@ -345,6 +345,124 @@ body
     animation-duration: .5s;
     animation-timing-function: ease-in;
 }
+.box-cer
+
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cer
+{
+    width: 300px;
+}
+.c-img
+{
+    width: 100%;
+    border-radius: 12px;
+}
+.box-modal
+{
+    width: 40vmax;
+    margin: 20px auto;
+    display: none;
+    transition: .5s;
+    margin: 20px auto;
+    position: relative;
+    
+    
+}
+.box-img
+{
+    width: 100%;
+    filter: blur(5px);
+    position: relative;
+}
+.blur-i
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: var(--secondory);
+}
+.blur-i:hover
+{
+    color: var(--primary);
+}
+.c-title
+{
+    width: 200px;
+    padding: 5px;
+    border: 1px solid transparent;
+    background-color: var(--primary);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.nav-cer
+{
+    display: flex;
+    align-items: center;
+}
+.cer-main
+{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.cm-img
+{
+    width: 100%;
+}
+.back-icon
+{
+    padding: 10px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 767px)
 {
     .left{
@@ -371,41 +489,19 @@ body
     }
     .prof
     {
-        width: 250px;
+        width: 220px;
         border-radius: 50%;
     }
+    .box-cer
+    {
+     display: none;
+    }
+    .box-modal
+    {
+        display: block;
+    }
+
 }
-
-.card
-{
-    width: 100%;
-
-}
-.cer
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 300px;
-}
-
-
-
-.c-img
-{
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
 .dnone
 {
     display: none;
