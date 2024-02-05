@@ -449,9 +449,68 @@ body
     width: 20px;
     margin: 20px auto;
 }
+.skills-container
+{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-left: 160px;
+    gap: 50px;
+    
 
+    
+}
+.skill-left
+{
+    width: 40%;
+    
+}
+.skill-right
+{
+    width: 50%;
+}
+.skill-title
+{
+    font-size: 4vmax;
+    color: var(--primary);
+    font-weight: bolder;
+}
+.skill-para
+{
+    font-size: 1vmax;
+    color: var(--bg);
+    margin-top: 20px;
+    font-weight: lighter;
 
+}
+.skills-img
 
+{
+    width: 400px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.skill-logo
+{
+    width: 100%;
+}
+.sp-card
+   {
+    margin-top: 30px;
+     width: 600px;
+     height: 170px;
+     border-radius: 20px;
+     border: 1px solid rgba(211, 211, 211, 0.538);
+     transition: .5s;
+     cursor: pointer;
+    }
+    .sp-card:hover
+    {
+      border: 1px solid   rgba(109, 225, 109, 0.978);
+
+    }
 
 
 
