@@ -259,8 +259,11 @@ body
 {
     width: 400px;
     border-radius: 20px;
-    transition: .5s
+    transition: .5s;
+    position: relative;
+    
 }
+
 .sec-para
 {
     margin-top: 10px;
@@ -453,72 +456,7 @@ body
     margin: 20px auto;
 }
 
-.skill-con
-{
-    width: 100%;
-    margin: 50px 0px;
 
-}
-.skill-title
-{
-  color: var(--bg);
-  font-size: 4vmax;
-  letter-spacing: 4px;
-  margin: 20px 200px;
-  animation: para;
-  animation-duration: 1s;
-}
-.skill-title span
-{
-    color: var(--primary);
-}
-.skill-card
-{
-    width: 500px;
-    height: 200px;
-    border: 1px solid var(--primary);
-    border-radius:80px;
-    position: relative;
-}
-.skill-cardmain
-{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin: 20px auto;
-    margin-left: 160px;
-}
-.card-title
-{
-    text-align:center ;
-    font-size: 2vmax;
-    font-weight: bold;
-    color: var(--bg);
-    position: relative;
-}
-.p-card
-{
-    width: 400px;
-    height: 20px;
-    border: 1px solid lightblue;
-    border-radius: 8px;
-    position: absolute;
-    top: 50px;
-}
-.p-card div
-{
-    background-color: red;
-    width: 50%;
-    height: 20px;
-    
-}
-.p-card div span
-{
-    float: right;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-}
 
 
 
@@ -571,6 +509,7 @@ body
     {
         width: 220px;
         border-radius: 50%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     }
     .box-cer
     {
@@ -580,45 +519,7 @@ body
     {
         display: block;
     }
-    .skills-container
-{
-    display:flex;
-    flex-wrap: wrap;
-    margin-top: 20px auto;
-    gap: 70px;
-    display: flex;
-    justify-content: start;
-    background-color:var(--bg);
-    width: 100%;
-    height: 250px;
-    overflow-x: hidden;
-    padding: 0;
-    
-   
-    
-}
-.skill-left
-{
-   margin: 0px auto;
-   
-    
-}
-.skill-title
-{
-    border-radius: 32px;
-    padding: 2px;
-    background-color: var(--rare);
-}
-.skills-right
-{
-    display: none;
-}
-.skill-para{
-    width: 300px;
-    margin: 20px auto;
-    padding: auto;
-}
-
+  
 }
 .dnone
 {
